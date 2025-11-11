@@ -21,7 +21,7 @@ export class Vetrina {
     this.catService
       .getSales()
       // NOTA
-      .pipe(delay(1000))
+      .pipe(delay(300))
       // NOTA
       .subscribe({
         next: (b) => {

@@ -6,13 +6,15 @@ import { Login } from './login/login';
 import { Register } from './register/register';
 import { Main } from './main/main';
 import { NotFound } from './not-found/not-found';
+import { CurrencyPipe } from '@angular/common';
 
 
 @NgModule({
   declarations: [Login, Register, Main, NotFound],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
-    provideBrowserGlobalErrorListeners()
+    provideBrowserGlobalErrorListeners(),
+    CurrencyPipe
   ],
   bootstrap: [Main]
 })

@@ -1,1 +1,17 @@
-<p>vetrina works!</p>
+<div class="container">
+    @if(!books){
+    <div class="d-flex py-5 justify-content-center">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    }@else {
+    <div class="row">
+        @for (b of books; track b.ean) {
+        <div class="col-sm-3">
+            <app-card-book [libro]="b"></app-card-book>
+        </div>
+        }
+    </div>
+    }
+</div>

@@ -1,0 +1,11 @@
+@if(book){
+<div class="card">
+    <img [src]="book.image" [alt]="book.title" class="card-img-top">
+    <div class="card-body">
+        <h5 class="card-title">{{ book.title }}</h5>
+        <span class="badge bg-secondary">{{ book.category.name }}</span><br>
+        <em>{{ book.author }}</em>
+        <div class="price mt-3" [innerHTML]="book | onSale"></div>
+    </div>
+</div>
+}

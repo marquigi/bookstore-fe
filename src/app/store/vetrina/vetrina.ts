@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Book } from '../../models/book.interface';
+import { CatalogoService } from '../../services/catalogo-service';
+import { delay } from 'rxjs';
 
 @Component({
   selector: 'app-vetrina',
@@ -8,4 +11,23 @@ import { Component } from '@angular/core';
 })
 export class Vetrina {
 
+  // NOTA
+  private readonly catService = inject(CatalogoService);
+
+  books?: Book[];
+
+  ngOnInit() {
+    // NOTA
+    this.catService
+      .getSales()
+      // NOTA
+      .pipe(delay(1000))
+      // NOTA
+      .subscribe({
+        next: (b) => {
+          this.books = b;
+        },
+        error: () => { }
+      });
+  }
 }

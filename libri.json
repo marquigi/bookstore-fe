@@ -1,0 +1,176 @@
+[
+    {
+        "ean": "9788804668232",
+        "author": "Elena Ferrante",
+        "category": {
+            "id": 1,
+            "name": "Narrativa Contemporanea"
+        },
+        "image": "https://covers.openlibrary.org/b/id/10534762-L.jpg",
+        "n_pages": 400,
+        "title": "L'amica geniale",
+        "price": 14.9,
+        "on_sale": true,
+        "publisher": {
+            "id": 1,
+            "name": "Edizioni E/O"
+        },
+        "year": 2011
+    },
+    {
+        "ean": "9788806245974",
+        "author": "Italo Calvino",
+        "category": {
+            "id": 2,
+            "name": "Classico Italiano"
+        },
+        "image": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
+        "n_pages": 192,
+        "title": "Il barone rampante",
+        "price": 12.0,
+        "publisher": {
+            "id": 2,
+            "name": "Mondadori"
+        },
+        "year": 1957
+    },
+    {
+        "ean": "9788806228892",
+        "author": "Paolo Giordano",
+        "category": {
+            "id": 3,
+            "name": "Narrativa Moderna"
+        },
+        "image": "https://covers.openlibrary.org/b/id/8269410-L.jpg",
+        "n_pages": 304,
+        "title": "La solitudine dei numeri primi",
+        "price": 11.5,
+        "on_sale": true,
+        "publisher": {
+            "id": 3,
+            "name": "Mondadori"
+        },
+        "year": 2008
+    },
+    {
+        "ean": "9788804681965",
+        "author": "Umberto Eco",
+        "category": {
+            "id": 4,
+            "name": "Romanzo Storico"
+        },
+        "image": "https://covers.openlibrary.org/b/id/8284151-L.jpg",
+        "n_pages": 512,
+        "title": "Il nome della rosa",
+        "price": 16.9,
+        "on_sale": true,
+        "publisher": {
+            "id": 4,
+            "name": "Bompiani"
+        },
+        "year": 1980
+    },
+    {
+        "ean": "9788804706866",
+        "author": "Andrea Camilleri",
+        "category": {
+            "id": 5,
+            "name": "Giallo"
+        },
+        "image": "https://covers.openlibrary.org/b/id/10354217-L.jpg",
+        "n_pages": 280,
+        "title": "La forma dell’acqua",
+        "price": 13.0,
+        "publisher": {
+            "id": 5,
+            "name": "Sellerio"
+        },
+        "year": 1994
+    },
+    {
+        "ean": "9788804668249",
+        "author": "Donato Carrisi",
+        "category": {
+            "id": 6,
+            "name": "Thriller"
+        },
+        "image": "https://covers.openlibrary.org/b/id/8302920-L.jpg",
+        "n_pages": 400,
+        "title": "Il suggeritore",
+        "price": 17.9,
+        "on_sale": true,
+        "publisher": {
+            "id": 6,
+            "name": "Longanesi"
+        },
+        "year": 2009
+    },
+    {
+        "ean": "9788804668256",
+        "author": "Margaret Mazzantini",
+        "category": {
+            "id": 7,
+            "name": "Narrativa Drammatica"
+        },
+        "image": "https://covers.openlibrary.org/b/id/8237731-L.jpg",
+        "n_pages": 368,
+        "title": "Non ti muovere",
+        "price": 13.5,
+        "publisher": {
+            "id": 7,
+            "name": "Mondadori"
+        },
+        "year": 2001
+    },
+    {
+        "ean": "9788804668263",
+        "author": "Alessandro Baricco",
+        "category": {
+            "id": 8,
+            "name": "Romanzo Breve"
+        },
+        "image": "https://covers.openlibrary.org/b/id/8368326-L.jpg",
+        "n_pages": 96,
+        "title": "Seta",
+        "price": 9.9,
+        "publisher": {
+            "id": 8,
+            "name": "Feltrinelli"
+        },
+        "year": 1996
+    },
+    {
+        "ean": "9788804668270",
+        "author": "Giorgio Faletti",
+        "category": {
+            "id": 9,
+            "name": "Thriller Psicologico"
+        },
+        "image": "https://covers.openlibrary.org/b/id/8231849-L.jpg",
+        "n_pages": 544,
+        "title": "Io uccido",
+        "price": 18.0,
+        "publisher": {
+            "id": 9,
+            "name": "Baldini+Castoldi"
+        },
+        "year": 2002
+    },
+    {
+        "ean": "9788804668287",
+        "author": "Dacia Maraini",
+        "category": {
+            "id": 10,
+            "name": "Narrativa Sociale"
+        },
+        "image": "https://covers.openlibrary.org/b/id/8284732-L.jpg",
+        "n_pages": 320,
+        "title": "La lunga vita di Marianna Ucrìa",
+        "price": 12.9,
+        "publisher": {
+            "id": 10,
+            "name": "Rizzoli"
+        },
+        "year": 1990
+    }
+]

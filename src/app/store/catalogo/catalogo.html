@@ -1,1 +1,17 @@
-<p>catalogo works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <ul class="list-group">
+                @for (c of categories; track c.category.id) {
+                <!-- NOTA -->
+                <a [routerLink]="['/store/catalogo', c.category.id]"
+                    class="list-group-item d-flex justify-content-between align-items-center">
+                    {{ c.category.name }}
+                    <span class="badge text-bg-primary rounded-pill">{{ c.n_books }}</span>
+                </a>
+                }
+            </ul>
+        </div>
+        <div class="col">... elenco</div>
+    </div>
+</div>

@@ -22,3 +22,10 @@ export interface Book {
     publisher: Publisher;
     year: number;
 }
+
+
+// NOTA
+export interface CategoryWithCount {
+    category: Category
+    n_books: number
+}

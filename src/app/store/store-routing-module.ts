@@ -9,7 +9,9 @@ const routes: Routes = [
     path: '', component: Layout,
     children: [
       { path: '', component: Vetrina },
-      { path: 'catalogo', component: Catalogo }
+      { path: 'catalogo', component: Catalogo },
+      // NOTA
+      { path: 'catalogo/:id_cat', component: Catalogo }, // es. /store/catalogo/5
     ]
   }
 ];

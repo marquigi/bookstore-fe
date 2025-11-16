@@ -17,7 +17,8 @@ export class Catalogo {
   private readonly ar = inject(ActivatedRoute);
 
   categories?: CategoryWithCount[];
-  books?: Book[]
+  books?: Book[];
+  nome_categoria?: string;
 
   // NOTA
   ngOnInit() {
@@ -28,6 +29,8 @@ export class Catalogo {
 
       // Sfoglia categoria
       if (p['id_cat']) {
+        // NOTA
+        this.nome_categoria = this.categories!.find((c) => c.category.id === +p['id_cat'])!.category.name;
         // NOTA
         this.catService.getByCategory(+p['id_cat']).subscribe((bks => {
           this.books = bks;

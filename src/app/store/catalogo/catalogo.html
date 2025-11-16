@@ -13,9 +13,11 @@
             </ul>
         </div>
         <div class="col">
-            <div class="row">
+
+            <h3>{{ nome_categoria }}</h3>
+            <div class="row mt-2">
                 @for (b of books; track b.ean) {
-                <div class="col-3">
+                <div class="col-3 mt-2">
                     <app-card-book [libro]="b"></app-card-book>
                 </div>
                 }

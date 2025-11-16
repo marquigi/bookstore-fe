@@ -321,4 +321,10 @@ export class CatalogoService {
 
     return r;
   }
+
+  // NOTA
+  getByCategory(id_category: number) {
+    // NOTA
+    return of(this.catalogo.filter((b) => b.category.id === id_category));
+  }
 }

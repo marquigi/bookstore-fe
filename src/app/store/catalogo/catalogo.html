@@ -12,6 +12,14 @@
                 }
             </ul>
         </div>
-        <div class="col">... elenco</div>
+        <div class="col">
+            <div class="row">
+                @for (b of books; track b.ean) {
+                <div class="col-3">
+                    <app-card-book [libro]="b"></app-card-book>
+                </div>
+                }
+            </div>
+        </div>
     </div>
 </div>
